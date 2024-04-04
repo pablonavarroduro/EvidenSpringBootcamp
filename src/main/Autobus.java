@@ -15,4 +15,10 @@ public class Autobus implements InterfazVehiculo {
 		
 	}
 
+	@Override
+	public void showName() {
+		System.out.println("Autobus");
+		
+	}
+
 }

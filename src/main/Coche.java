@@ -14,6 +14,12 @@ public class Coche implements InterfazVehiculo {
 		
 	}
 
+	@Override
+	public void showName() {
+		System.out.println("Coche");
+		
+	}
+
 	
 
 }

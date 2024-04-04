@@ -13,5 +13,13 @@ public class Moto implements InterfazVehiculo {
 		System.out.println("Plazas: 2 ");
 	}
 
+	@Override
+	public void showName() {
+		System.out.println("Moto");
+		
+	}
+	
+	
+
 
 }

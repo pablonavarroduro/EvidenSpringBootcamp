@@ -2,10 +2,10 @@ package main;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
 		Fabrica sat1 = new Fabrica(new Autobus());
-		sat1.getRuedas();
-		sat1.getPlazas();
+		sat1.caracteristicasVehiculo();
+		
 
 	}
 
